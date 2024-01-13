@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/SRH.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>SRH</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="jquery.js"></script>
+	<script>
+		$(window).on('scroll', function () {
+			if ($(window).scrollTop()) {
+				$('nav').addClass('black');
+			} else {
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/SRH.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#Courses">Course</a></li>
+				<li><a href="#Downloads">Downloads</a></li>
+				<li><a href="#Quick_Links">Quick Links</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img
+					src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Learn as if you were not reaching your goal and as though you were scared of missing it</p>
+				<h5>Education is about learning skills and knowledge. It also means helping people to learn how to do
+					things and support them to think about what they learn. It is also important for educators to teach
+					ways to find and use information. Education needs research to find out how to make it better.</h5>
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a
+							href="https://youtube.com/shorts/RJj7bUflNMM?si=ptjrCwLOASeFn3ON" target="_blank">Watch
+							Now</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+	</header>
+
+
+	<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Popular Subjects</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center>
+			<div class="cbox">
+				<div class="det"><a href="subjects/maths.html"><img src="images/courses/book.png">Mathematics</a></div>
+				<div class="det"><a href="subjects/English.html"><img src="images/courses/d1.png">English</a></div>
+				<div class="det"><a href="subjects/hindi.html"><img src="images/courses/d1.png">Hindi</a></div>
+			</div>
+		</center>
+		<div class="cbox">
+			<div class="det"><a href="subjects/Social.html"><img src="images/courses/computer.png">Social Science</a>
+			</div>
+			<div class="det det-last"><a href="subjects/science.html"><img src="images/courses/projects.png">Science</a>
+			</div>
+		</div>
+	</div>
+	<!-- COURSES -->
+	<div class="diffSection" id="Courses">
+		<center>
+			<p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Courses</p>
+		</center>
+		<div class="content">
+			<p>
+				“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your
+				attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try
+				ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+			<span>
+				<center>
+					<div class="data">154</div>
+					<div class="det">Enrolled Students</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">62</div>
+					<div class="det">Total Courses</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">56</div>
+					<div class="det">Saled Courses</div>
+				</center>
+			</span>
+		</div>
+	</div>
+
+	<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center>
+			<p style="font-size: 50px; padding: 100px">About</p>
+		</center>
+		<div class="about-content">
+			<div class="side-image">
+				<img class="sideImage" src="images/extra/e3.jpg">
+			</div>
+			<div class="side-text">
+				<h2>What you think about us ?</h2>
+				<p>Education, the cornerstone of progress, is a vibrant dance between tradition and innovation. From
+					scribing on clay tablets to navigating virtual classrooms, humanity's quest for knowledge has
+					reshaped the world and ourselves. Throughout history, education has empowered us to decipher
+					nature's secrets, build towering cities, and weave symphonies of thought.<br>
+
+					Today, this dance carries an exhilarating rhythm. Brick-and-mortar schools share space with online
+					learning platforms, textbooks coexist with interactive simulations, and teachers adapt to become
+					co-explorers in a boundless knowledge landscape.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="service-swipe">
+		<div class="diffSection" id="Quick_Links">
+			<center>
+				<p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Quick Links</p>
+			</center>
+		</div>
+		<a href="">
+			<div class="s-card"><img src="images/icon/computer-courses.png">
+				<p>Free Online Courses</p>
+			</div>
+		</a>
+		<a href="">
+			<div class="s-card"><img src="images/icon/brainbooster.png">
+				<p>Building concepts</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="s-card"><img src="images/icon/online-tutorials.png">
+				<p>Online Video Lectures</p>
+			</div>
+		</a>
+		<a href="">
+			<div class="s-card"><img src="images/icon/papers.jpg">
+				<p>Sample Papers of Various Courses</p>
+			</div>
+		</a>
+		<a href="">
+			<div class="s-card"><img src="images/icon/help.png">
+				<p>24x7 Online Support</p>
+			</div>
+		</a>
+	</div>
+
+	<div class="diffSection" id="contactus_section">
+		<center>
+			<p style="font-size: 50px; padding: 100px">Contact Us</p>
+		</center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+				<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+					<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name
+						<span class="imp">*</span></label><br>
+					<center>
+						<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input
+							type="text" name="lname" style="width: 175px" required="required"><br>
+					</center>
+					<label>Email <span class="imp">*</span></label><br>
+					<input type="email" name="mail" style="width: 100%" required="required"><br>
+					<label>Message <span class="imp">*</span></label><br>
+					<input type="text" name="message" style="width: 100%" required="required"><br>
+					<label>Additional Details</label><br>
+					<textarea name="addtional"></textarea><br>
+					<button type="submit" id="csubmit">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left"
+		onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20">
+		<div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it
+			today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is
+			expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and
+			change.”</div>
+	</marquee>
+
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/SRH.png" style="width: 500px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2024 Created By Vikash Sinha All Rights Reserved.</p>
+				<br>
+				<p><img src="images/icon/location.png"> Arya College Of Engineering and Information Technology<br>Kukas,
+					Jaipur Rajasthan-302028</p><br>
+				<p><img src="images/icon/phone.png"> +91-7488713774<br><img src="images/icon/mail.png">&nbsp;
+					vikashsinha484@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
